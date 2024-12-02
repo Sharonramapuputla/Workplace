@@ -37,3 +37,36 @@ Python libraries:
 1. Clone the repository:
 basH
 git clone https://github.com/Sharonramapuputla/QCTO-Banking-Crises.git
+
+2. Navigate to the directory:
+bash
+cd QCTO-Banking-Crises
+
+3. Install dependencies:
+bash
+pip install -r requirements.txt
+
+# Usage
+1. Launch the notebook:
+bash
+jupyter notebook QCTO_Workplace_Module_Notebook_Template_4571(1).ipynb
+
+2. Follow the structured sections:
+
+- Data Preparation: Run the preprocessing cells to clean and transform the dataset.
+- EDA: Explore visualizations to uncover trends and patterns.
+- Model Training and Evaluation: Train models and evaluate their performance.
+  
+3. Modify and extend the notebook as needed for custom datasets or additional analyses.
+
+# Data Sources
+The notebook utilizes publicly available economic datasets, including:
+
+- Banking crisis events
+- Annual inflation rates
+- Exchange rates across countries
+Ensure datasets are placed in the correct directory structure before running the notebook.
+
+
+
+
